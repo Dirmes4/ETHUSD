@@ -1,3 +1,4 @@
 import pandas as pd
-df = pd.read_csv('/Users/jordialonsoguardia/Downloads/Bitstamp_ETHUSD_2021_minute.csv')
-
+df = pd.read_csv('/Users/jordialonsoguardia/Downloads/Bitstamp_ETHUSD_2021_minute.csv', index_col='unix')
+fig1 = df['close']
+fig1.plot(figsize=(10, 10))
