@@ -1,1 +1,3 @@
+import pandas as pd
+df = pd.read_csv('/Users/jordialonsoguardia/Downloads/Bitstamp_ETHUSD_2021_minute.csv')
 
